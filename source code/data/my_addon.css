@@ -1,0 +1,193 @@
+body {
+	background-color: #F73F23;
+}
+
+
+
+div.list ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.list li {
+	float: left;
+}
+
+div.list li a{
+	
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;;
+}
+
+div.list li a:hover {
+     background-color: #111;
+}
+
+div.upper {
+	color: #333;
+	position:relative;
+	left: +40px;
+	top: -10px;
+	text-align: center;
+}
+
+div.img {
+	position:fixed;
+	top: 0;
+	width:100%;
+	
+}
+
+div.https {
+	position:relative;
+	left: 105px;;
+	
+}
+div.https p {
+	
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.hsts {
+	position:relative;
+	left: 108px;
+}
+
+div.hsts p {
+	text-align:center;
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.hpkp {
+	position:relative;
+	left: 108px;
+}
+
+div.hpkp p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.httpCookies {
+	position:relative;
+	left: 75px;
+}
+
+div.httpCookies p {
+	text-align:center;
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.thirdParty {
+	position:relative;
+	left: 65px;
+}
+
+div.thirdParty p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.session {
+	position:relative;
+	left: 75px;
+}
+
+div.session p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.total {
+	position:relative;
+	left: 80px;
+}
+
+div.total p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.CA {
+	position:relative;
+	left: 75px;
+}
+
+div.CA p {
+	text-align:center;
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.SSL {
+	position:relative;
+	left: 95px;
+}
+
+div.SSL p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.avg {
+	position:relative;
+	left: 110px;
+	top:10px;
+}
+
+div.avg p {
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+div.details {
+	position:relative;
+	left: 126px;
+	top:-10px;
+}
+
+div.details p {
+	font-weight: bold;
+	font-size: 15px;
+	color : #333;
+	display:inline-block;
+}
+
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+}
+#myBar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: black;
+}
+
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
