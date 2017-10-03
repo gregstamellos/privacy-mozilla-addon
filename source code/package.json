@@ -1,0 +1,16 @@
+{
+  "title": "Privacy Thesis Upatras",
+  "name": "thesis_privacy_addon",
+  "version": "1.2.1",
+  "description": "Privacy Info",
+  "main": "my_addon.js",
+  "author": "G.Stam",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
